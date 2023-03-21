@@ -8,8 +8,8 @@ namespace JP
 {
     public class Respuesta
     {
-        public int RespuestaId { get; set; }
-        public Opciones SeleccionOpciones { get; set; }
+        public int PreguntaId { get; set; }
+        public Opcion SeleccionOpcion { get; set; }
 
     }
 }

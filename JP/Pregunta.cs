@@ -8,10 +8,10 @@ namespace JP
 {
     public class Pregunta
     { 
-        public int id { get; set; }
-        public string PreguntaT { get; set; }
+        public int Id { get; set; }
+        public string PreguntaTexto { get; set; }
 
-        public List<Opciones> opciones { get; set; } 
+        public List<Opcion> Opcion { get; set; } 
 
     }
 }

@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace JP
 {
-    public class Opciones
+    public class Opcion
     {
-        public int id {  get; set; }
+        public int Id {  get; set; }
         public string Texto { get; set; }
 
         public bool Valido { get; set; }
